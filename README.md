@@ -1,6 +1,6 @@
 # paperboy_newsletter_generator
 
-A modification of TPM's sample sinatra app based on the [paperboy gem](http://github.com/tpm/paperboy) for generating HTML newsletters from popular stories. 
+A modification of TPM's sample sinatra app ([Paperboy Distributor](http://github.com/tpm/paperboy_distributor)) based on the [paperboy gem](http://github.com/tpm/paperboy) for generating HTML newsletters from popular stories. 
 
 In one step, newsletter.rb uses Chartbeat historical data to generate a complete HTML file containing a list of the most viewed stories from your site over the past four hours.
 
