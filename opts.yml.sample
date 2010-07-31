@@ -1,0 +1,4 @@
+apikey: 'key'
+host: 'host.com'
+img_xpath: '//head/meta[@property="og:image"]'
+blurb_xpath: '//head/meta[@name="description"]'
