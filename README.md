@@ -1,4 +1,4 @@
-# paperboy_newsletter
+# paperboy_newsletter_generator
 
 A modification of TPM's sample sinatra app based on the [paperboy gem](http://github.com/tpm/paperboy) for generating HTML newsletters from popular stories. 
 
@@ -12,8 +12,8 @@ Paperboy aggregates stories from chartbeat's `snapshots` endpoint over a given t
 
 Make sure you have Paperboy (`sudo gem install paperboy`)
 
-`git clone git://github.com/tpm/paperboy_distributor`  
-`cd paperboy_distributor`  
+`git clone git://github.com/rnagle/paperboy-newsletter-generator.git`  
+`cd paperboy-newsletter-generator`  
 Rename `opts.yml.sample` to `opts.yml`, fill in your chartbeat credentials and xpath prefs (for slurping up images and descriptions from META tags)
 
 Open `newsletter.rb` and fill in custom [filters](http://github.com/tpm/stats\_combiner/blob/master/README.md).
