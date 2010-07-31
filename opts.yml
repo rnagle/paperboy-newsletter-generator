@@ -1,4 +1,0 @@
-apikey: '71f468e53d6d6c4b2b7530a399b2294a'
-host: 'chicagobreakingnews.com'
-img_xpath: '//head/meta[@property="og:image"]'
-blurb_xpath: '//head/meta[@name="description"]'

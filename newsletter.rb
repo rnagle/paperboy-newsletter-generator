@@ -1,5 +1,7 @@
 require 'rubygems'
-require 'lib/paperboy/paperboy.rb'
+# require 'lib/paperboy/paperboy.rb'
+# Included modified paperboy.rb which accounts for the weird way that one of our servers directs domain names sans 'www'
+require 'paperboy'
 require 'lib/paperboy_distributor/base.rb'
     
     # to use filters, uncomment 
