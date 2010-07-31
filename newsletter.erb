@@ -42,28 +42,5 @@
 </div>
 
 </div>
-<div id="chartBeat" class="pkg">
-  <h3>Site activity right NOW</h3> 
-  <span style="color:#777;">Stories with the most visitors</span> 
-  <small style="color:#999;">(Refreshes every 10 seconds)</small> 
-  <div id="chart-beat" class="pkg">
-  </div>
-</div>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" language="javascript" src="javascripts/chartbeat.js"></script>
-<script type="text/javascript" language="javascript">
-new topwidget("71f468e53d6d6c4b2b7530a399b2294a", "chart-beat", "5");
-
-function refreshWidget() {
-    new topwidget("71f468e53d6d6c4b2b7530a399b2294a", "chart-beat", "5");
-}
-
-setInterval(function() {
-    refreshWidget();
-},
-10000);
-</script>
-
 </body>
 </html>
